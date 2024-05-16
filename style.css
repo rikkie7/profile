@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+h1 {
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+img {
+ width: 200px;
+ height: 235px;
+ border-radius: 50%
+}
+
+h2 {
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 30px
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.text-center{
+  text-align: center
+}
+
+.card {
+  background-color: rgb(205, 232, 229);
+  margin-bottom: 10px;
+  box-shadow: 2px, 2px, 3px, rgb(189, 29, 29);
+  border-radius: 10px;
+  border: solid
+}
+
+.icon {
+  font-size: 30px
+}
+
+.font {
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 15px
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
